@@ -4,7 +4,9 @@
   border-radius: 5px;
   padding: 20px;
 }
-
+.Weather .header {
+  margin-bottom: 60px;
+}
 .Weather .main-temperature {
   box-sizing: border-box;
   display: inline;
