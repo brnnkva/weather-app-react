@@ -4,30 +4,53 @@ import "./Weather.css";
 export default function Weather(){
     return (
         <div className="Weather">
-            <form>
-            <div className="row w-100">
+            <div className="row header">
                 <div className="col-8">
-                <input 
-                type="search" 
-                placeholder="enter city" 
-                className="form-control"
-                autoFocus="on" />
-                </div>
-              <div className="col-3">
-                  <input t
-                  ype="submit" 
-                  value="Search" 
-                  className="btn btn-primary w-100" />
-              </div>
-
+                <div className="search-form">
+              <form>
+                <div className="row">
+                    <div className="col-6">
+                     <input 
+                      type="search" 
+                      placeholder="enter city" 
+                      className="form-control"
+                      autoFocus="on" />
+                  </div>
+                  <div className="col-2">
+                      <input 
+                      type="submit" 
+                      value="Search" 
+                      className="btn btn-primary" />
+                  </div>
+               </div>
+              </form>
             </div>
-            </form>
+                </div>
+                <div className="col-4">
+                <ul className="current-day-time">
+                        <li>
+                            Tuesday, July 13
+                        </li>
+                        <li>
+                            12:30
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
+            
+            
             <div className="row mt-4">
-                <div className="col-6 top-left">
+                <div className="col-8 top-left">
                      <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="sunny>" className="weather-icon"/>
                     <span className="main-temperature"> 29</span><span className="unit">°C</span>
-       
+                    <h1>Budapest</h1>
+              </div>    
+               
+                
+                <div className="col-4 top-right">
+                  
+                
                     <div className="weather-details">
                       <ul>
                          <li>
@@ -41,19 +64,6 @@ export default function Weather(){
                          </li> 
                      </ul>
                   </div>
-              </div>    
-               
-                
-                <div className="col-6 top-right">
-                    <h1>Budapest</h1>
-                    <ul className="current-day-time">
-                        <li>
-                            Tuesday, July 13
-                        </li>
-                        <li>
-                            12:30
-                        </li>
-                    </ul>
                 </div>
 
             </div>

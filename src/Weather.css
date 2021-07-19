@@ -35,7 +35,6 @@
   font-size: 22px;
   font-weight: 400;
   margin: 0;
-  text-align: right;
 }
 
 .Weather ul {
@@ -45,26 +44,21 @@
 
 .Weather li {
   list-style: none;
-  color: rgb(112, 117, 122);
   display: block;
   font-weight: 400;
 }
 
 .Weather .current-day-time li {
+  color: rgb(112, 117, 122);
   font-size: 16px;
   line-height: 20px;
-  text-align: right;
 }
 
-.Weather .weather-details li {
-  font-size: 12px;
-  line-height: 16px;
-}
 .Weather .weather-details {
-  color: #70757a;
-  display: inline-block;
-  font-size: 12px;
-  line-height: 16px;
-  padding-left: 9px;
-  padding-top: 6px;
+  display: block;
+}
+.Weather .weather-details li {
+  color: rgb(32, 33, 36);
+  font-size: 16px;
+  line-height: 25px;
 }
