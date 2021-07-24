@@ -9,7 +9,6 @@ export default function Weather(props){
     let [weatherData, setWeatherData] = useState({loaded: false});
     let [city, setCity] = useState(props.defaultCity);
     function handleResponse(response){
-        console.log(response.data);
        setWeatherData({
            loaded: true,
            date: new Date (response.data.dt * 1000),
@@ -46,7 +45,7 @@ function search(){
                         <div className="col">
                          <input 
                           type="search" 
-                          placeholder="Enter city" 
+                          placeholder="Enter a city" 
                           className="form-control"
                           autoFocus="off" 
                           autoComplete="off"
@@ -72,7 +71,7 @@ function search(){
               type="Grid"
               color="#00BFFF"
               height={100}
-              width={150}
+              width={680}
               timeout={3000} 
             />
           );;
