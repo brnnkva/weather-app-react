@@ -18,7 +18,7 @@ export default function Weather(props){
            description: response.data.weather[0].description,
            humidity: response.data.main.humidity,
            wind: response.data.wind.speed,
-           iconUrl: `https://ssl.gstatic.com/onebox/weather/64/sunny.png`
+           iconUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
        });
     }
 
@@ -46,7 +46,7 @@ function search(){
                         <div className="col-10">
                          <input 
                           type="search" 
-                          placeholder="enter city" 
+                          placeholder="Enter city" 
                           className="form-control"
                           autoFocus="on" 
                           onChange={handleCityChange}

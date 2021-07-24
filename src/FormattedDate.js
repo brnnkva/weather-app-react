@@ -4,13 +4,13 @@ import "./FormattedDate.css";
 export default function FormattedDate(props){
     console.log(props.date)
     let days = [
-        "Sunday",
-        "Monday",
-       "Tuesday", 
-       "Wednesday", 
-       "Thursday", 
-       "Friday",
-       "Saturday"
+        "Sun",
+        "Mon",
+       "Tue", 
+       "Wed", 
+       "Thu", 
+       "Fri",
+       "Sat"
        ];
     let day = days[props.date.getDay()];
     let hours = props.date.getHours(); 
@@ -22,18 +22,18 @@ export default function FormattedDate(props){
         minutes = `0${minutes}`;
       }
     let months = [
-        "January", 
-        "February", 
-        "March", 
-        "April", 
+        "Jan", 
+        "Feb", 
+        "Mar", 
+        "Apr", 
         "May", 
-        "June", 
-        "July", 
-        "August", 
-        "September", 
-        "October", 
-        "November", 
-        "December"
+        "Jun", 
+        "Jul", 
+        "Aug", 
+        "Sep", 
+        "Oct", 
+        "Nov", 
+        "Dec"
      ];
    let month = months[props.date.getMonth()];
    let year = props.date.getFullYear();

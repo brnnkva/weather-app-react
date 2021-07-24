@@ -5,32 +5,33 @@ export default function WeatherInfo(props) {
         <div className="WeatherInfo">
             <div className="row mt-5">
 
-<div className="col-8 top-left">
-    <div className="city-date">
+<div className="col-7 top-left">
+    <div className="city">
     <h1>{props.info.city}</h1>
-  <ul>
+    </div>
+    <div className="icon-temperature mt-3">
+    <span className="main-temperature"> {props.info.temperature}</span><span className="unit">°C</span>
+    <img src={props.info.iconUrl} alt={props.info.description} className="weather-icon"/>
+   
+    </div>
+</div>    
+
+<div className="col-5 top-right">
+<ul className="date">
       <li>
          <FormattedDate date={props.info.date}/>
       </li>
   </ul>
-    </div>
-    <div className="icon-temperature mt-3">
-    <img src={props.info.iconUrl} alt={props.info.description} className="weather-icon"/>
-    <span className="main-temperature"> {props.info.temperature}</span><span className="unit">°C</span>
-    </div>
-</div>    
-
-<div className="col-4 top-right">
     <div className="weather-details">
       <ul>
          <li>
-            <span className="weather-description">{props.info.description}</span>
+            <span className="weather-description text-capitalize">{props.info.description}</span>
          </li>
          <li>
-             <span className="humidity">humidity</span> {props.info.humidity}%
+             <span className="humidity">Humidity</span> {props.info.humidity}%
          </li>
          <li>
-             <span className="wind-speed">wind</span> {props.info.wind} km/h
+             <span className="wind-speed">Wind</span> {props.info.wind} km/h
          </li> 
      </ul>
   </div>
