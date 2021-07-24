@@ -7,6 +7,12 @@
 .Weather .header {
   margin-bottom: 60px;
 }
+
+.Weather .search-form {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
 .Weather .main-temperature {
   box-sizing: border-box;
   display: inline;
@@ -48,12 +54,6 @@
   list-style: none;
   display: block;
   font-weight: 400;
-}
-
-.Weather .current-day-time li {
-  color: rgb(112, 117, 122);
-  font-size: 16px;
-  line-height: 20px;
 }
 
 .Weather .weather-details {
