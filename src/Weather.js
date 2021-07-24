@@ -43,19 +43,20 @@ function search(){
                 <div className="search-form">
                    <form onSubmit={handleSubmit}>
                     <div className="row">
-                        <div className="col-10">
+                        <div className="col">
                          <input 
                           type="search" 
                           placeholder="Enter city" 
                           className="form-control"
-                          autoFocus="on" 
+                          autoFocus="off" 
+                          autoComplete="off"
                           onChange={handleCityChange}
                           />
                       </div>
                       <div className="col-2">
                           <input 
                           type="submit" 
-                          value="search" 
+                          value="" 
                           className="btn btn-primary" />
                       </div>
                    </div>

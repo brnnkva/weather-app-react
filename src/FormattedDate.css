@@ -1,6 +1,8 @@
 .FormattedDate {
   color: rgb(112, 117, 122);
-  font-size: 16px;
-  line-height: 20px;
-  margin: 10px auto 20px auto;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.FormattedDate hr {
+  margin: 2px;
 }
