@@ -24,13 +24,13 @@ export default function WeatherInfo(props) {
     <div className="weather-details">
       <ul>
          <li>
-            {props.info.description}
+            <span className="weather-description">{props.info.description}</span>
          </li>
          <li>
-             humidity: {props.info.humidity}%
+             <span className="humidity">humidity</span> {props.info.humidity}%
          </li>
          <li>
-             wind: {props.info.wind} km/h
+             <span className="wind-speed">wind</span> {props.info.wind} km/h
          </li> 
      </ul>
   </div>

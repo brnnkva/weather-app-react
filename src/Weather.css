@@ -40,7 +40,7 @@
 .Weather h1 {
   color: rgb(32, 33, 36);
   display: block;
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 400;
   margin: 0;
 }
@@ -62,5 +62,5 @@
 .Weather .weather-details li {
   color: rgb(32, 33, 36);
   font-size: 16px;
-  line-height: 25px;
+  line-height: 20px;
 }
