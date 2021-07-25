@@ -12,10 +12,10 @@ export default function WeatherInfo(props) {
                            <h1 className="text-uppercase">{props.info.city}</h1>
                       </div>
                      <div className="row icon-temperature mt-3">
-                         <div className="col-2">
+                         <div className="col-3 temperature-wrapper">
                          <WeatherTemp celsius={props.info.temperature} /> 
                          </div>
-                         <div className="col-2">
+                         <div className="col-3 icon-wrapper">
                          <img src={props.info.iconUrl} alt={props.info.description} className="weather-icon"/>
                          </div>
                      </div>
