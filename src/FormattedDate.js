@@ -35,11 +35,11 @@ export default function FormattedDate(props){
         "Dec"
      ];
    let month = months[props.date.getMonth()];
-   let year = props.date.getFullYear();
-
+   let dateNumber = props.date.getDate();
+   
     return (
     <div className="FormattedDate">
-{month} {year} <hr /> {day} {hours}:{minutes}
+{month} {dateNumber} <hr /> {day} {hours}:{minutes}
     </div>
     );
 }
