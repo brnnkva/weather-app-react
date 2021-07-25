@@ -25,7 +25,7 @@ let [unit, setUnit] = useState("celsius");
         let fahrenheit = (props.celsius * 9/5) + 32;
         return  (
             <div className="WeatherTemp">
-                <span className="main-temperature">{fahrenheit}</span>
+                <span className="main-temperature">{Math.round(fahrenheit)}</span>
                 <span className="unit"><a href="/" onClick={showCelsius}>°C</a></span>
                 <span  className="unit-fa">F</span>
             </div>

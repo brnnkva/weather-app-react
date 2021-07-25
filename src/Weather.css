@@ -2,7 +2,9 @@
   display: block;
   border: 1px solid #eceef0;
   border-radius: 30px;
+  font-family: "Open Sans", sans-serif;
   padding: 25px;
+  padding-left: 40px;
 }
 
 .Weather form {
@@ -38,7 +40,7 @@
 .Weather .unit-fa {
   display: inline;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 24px;
   position: relative;
   top: -30px;
@@ -52,7 +54,11 @@
   display: inline-block;
   position: relative;
   top: -17px;
-  margin-left: 100%;
+  margin-left: 5px;
+}
+
+.Weather .icon-wrapper {
+  padding-left: 0;
 }
 
 .Weather h1 {
@@ -74,6 +80,20 @@
 
 .Weather .weather-details li {
   color: rgb(32, 33, 36);
-  font-size: 17px;
+  font-size: 15px;
   line-height: 20px;
+}
+
+.Weather .weather-details .weather-description {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.Weather .weather-details .humidity,
+.Weather .weather-details .wind-speed {
+  color: rgb(112, 117, 122);
+}
+
+.WeatherTemp a {
+  color: #727679;
 }
