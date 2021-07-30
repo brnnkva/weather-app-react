@@ -25,7 +25,6 @@ export default function WeatherInfo(props) {
                    <ul className="date">
                      <li>
                           <FormattedDate date={props.info.date}/>
-                         
                       </li>
                  </ul>
                  <div className="weather-details">
