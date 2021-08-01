@@ -8,10 +8,10 @@ export default function WeatherForecast(){
         console.log(response.data);
     }
     
-        apiKey="a2448133104335b630f878b5541b3167";
-        longitude=19;
-        latitude=47.4;
-        apiUrl= `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&appid=${apiKey}`;
+        let apiKey="a2448133104335b630f878b5541b3167";
+        let longitude=19;
+        let latitude=47.4;
+       let  apiUrl= `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&appid=${apiKey}`;
     
         axios.get(apiUrl).then(handleResponse);
 
