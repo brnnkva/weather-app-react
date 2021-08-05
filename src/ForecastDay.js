@@ -32,7 +32,7 @@ export default function ForecastDay(props){
             <div className="WeatherForecast">
                 <div className="row">
                     <div className="col">
-                        <div>
+                        <div className="forecast-day">
                             {day()}
                         </div>
                         <div className="forecast-img">

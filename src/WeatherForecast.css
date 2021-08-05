@@ -5,8 +5,14 @@
 
 .WeatherForecast .forecast-temp-min {
   margin-left: 5px;
-  opacity: 60%;
+  color: #70757a;
+  font-size: 15px;
 }
 .WeatherForecast .forecast-temp-max {
   font-weight: 550;
+  font-size: 15px;
+}
+
+.ForecastDay .forecast-day {
+  font-size: 15px;
 }
