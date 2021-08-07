@@ -111,3 +111,7 @@
 .WeatherTemp a {
   color: #727679;
 }
+
+.WeatherForecast hr {
+  color: #b8babd;
+}
