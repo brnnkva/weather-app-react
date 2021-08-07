@@ -30,15 +30,12 @@ export default function ForecastDay(props){
 }
 
     return (
-        <div className="ForecastDay">
-            <div className="WeatherForecast">
-                <div className="row">
-                    <div className="col">
+        <div className="ForecastDay">    
                         <div className="forecast-day">
                             {day()}
                         </div>
                         <div className="forecast-img">
-                      <WeatherIcon code="10d" size={45}/>
+                      <WeatherIcon code={props.forecast.weather[0].icon} size={45}/>
                         </div>
                         <span className="forecast-temp-max">
                           {maxTemp()}
@@ -46,9 +43,6 @@ export default function ForecastDay(props){
                         <span className="forecast-temp-min">
                         {minTemp()}
                         </span>
-                    </div>
-                </div>
-            </div>
         </div>
     )
 }
