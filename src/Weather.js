@@ -71,7 +71,7 @@ function search(){
         return (
             <Loader
               type="Grid"
-              color="#00BFFF"
+              color="#727272"
               height={100}
               width={680}
               timeout={3000} 
