@@ -13,6 +13,11 @@ export default function App() {
               open-source code
            </a>{" "}
             by brnnkva
+            <br />
+            hosted on  {" "}
+            <a href="https://trusting-sinoussi-033f5c.netlify.app/" target="_blank" rel="noreferrer">
+              Netlify
+            </a>
          </p>
        </footer>
       </div>
