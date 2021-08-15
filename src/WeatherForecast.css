@@ -1,5 +1,5 @@
 .WeatherForecast {
-  margin-top: 10%;
+  margin-top: 15%;
   text-align: center;
 }
 
@@ -15,4 +15,8 @@
 
 .ForecastDay .forecast-day {
   font-size: 15px;
+}
+
+.ForecastDay .forecast-img {
+  margin: 17px auto;
 }
