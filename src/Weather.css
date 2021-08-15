@@ -41,40 +41,6 @@
   background-blend-mode: multiply, multiply;
 }
 
-.Weather .main-temperature {
-  box-sizing: border-box;
-  display: inline;
-  font-size: 60px;
-  font-weight: 300;
-  line-height: 64px;
-  text-align: right;
-}
-
-.Weather .unit,
-.Weather .unit-fa {
-  display: inline;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 24px;
-  position: relative;
-  top: -30px;
-}
-.Weather .unit-fa {
-  top: -15px;
-  left: -10px;
-}
-
-.Weather canvas {
-  display: inline-block;
-  position: relative;
-  top: 4px;
-  margin-left: 5px;
-}
-
-.Weather .icon-wrapper {
-  padding-left: 5px;
-}
-
 .Weather h1 {
   color: rgb(32, 33, 36);
   display: inline-block;
@@ -90,28 +56,4 @@
 .Weather li {
   list-style: none;
   display: block;
-}
-
-.Weather .weather-details li {
-  color: rgb(32, 33, 36);
-  font-size: 15px;
-  line-height: 20px;
-}
-
-.Weather .weather-details .weather-description {
-  font-size: 17px;
-  font-weight: 600;
-}
-
-.Weather .weather-details .humidity,
-.Weather .weather-details .wind-speed {
-  color: rgb(112, 117, 122);
-}
-
-.WeatherTemp a {
-  color: #727679;
-}
-
-.WeatherForecast hr {
-  color: #b8babd;
 }

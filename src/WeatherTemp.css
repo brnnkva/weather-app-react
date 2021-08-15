@@ -1,0 +1,21 @@
+.WeatherTemp a {
+  color: #727679;
+}
+
+.WeatherTemp .unit,
+.WeatherTemp .unit-fa {
+  display: inline;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  position: relative;
+}
+
+.WeatherTemp .unit {
+  top: -30px;
+}
+
+.WeatherTemp .unit-fa {
+  top: -15px;
+  left: -10px;
+}

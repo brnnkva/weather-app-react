@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./WeatherTemp.css";
 
 export default function WeatherTemp(props){
 let [unit, setUnit] = useState("celsius");
